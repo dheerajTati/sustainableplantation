@@ -1,0 +1,60 @@
+.sub1{
+    color: white; 
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
+}
+
+.sub1 a{
+    padding: 10px;
+    background-color: green;
+    text-align: center;
+    color: white;
+}
+
+.sub1 a:hover{
+    font-size: x-large
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 5fr 4fr 6fr 4fr 5fr;
+}
+
+.holder{
+    text-align: center;
+    font-size: 20;
+    color: white;
+    padding: 15px;
+    background-color: green;
+    border-radius: 50px;
+}
+
+.holder:hover{
+    padding: 20px;
+}
+
+.textImage{
+    display: grid;
+    grid-template-columns: 3fr 1.5fr;
+}
+
+.textImage img{
+    width: 100%;
+    height: 350;
+}
+
+.threeImgHolder{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.threeImgHolder img{
+    width: 445;
+    height: 450;
+}
+
+.threeImgHolder img:hover{
+    width: 500;
+    height: 500;
+}
